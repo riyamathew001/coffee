@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(117, 56, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    font-family: Black Ops One;
+    color: rgb(59, 27, 6);
+}
+.head img{
+    position: absolute;
+    left: 360px;
+    height: 120px;
+    width: 120px;
+}
+.main b{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: none;
+}
+
+.head2{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(117, 56, 15);
+    text-align: center;
+    top: 0;
+}
+#content{
+    width: 750px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#content p{
+    font-family:Roboto Condensed ;
+    font-size: larger;
+}
+.type h1,b{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Shadows Into Light";
+    text-shadow: 2px 2px black;
+    color: rgb(75, 31, 1);
+
+    
+}
+.main h4{
+font-size: 60px;
+color: rgb(75, 31, 1);
+font-family: 'Times New Roman', Times, serif;
+}
+.main b{
+    font-weight: 100;
+    color: rgb(75, 31, 1);
+}
+
+.type p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.type ul,li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+    font-size: x-large;
+}
+
+.row{
+    display: flex;
+    margin: 20px;
+}
+.col{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+   
+}
+.col img{
+    width: 340px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+}
+.col1{
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    right: 200px;
+    text-align: justify;
+    font-size: larger;
+}
+.col2 img{
+    position: absolute;
+    left: 1200px;
+}
+.col3{
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    font-size: larger;
+    position: absolute;
+    left: 150px;}
+    
+.gallery{
+margin-left: 350px;
+width: 55%;
+padding: 50px;
+height: 1000px;
+background-color: rgb(117, 56, 15);
+border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px black;
+transition: all 200ms ease-in-out;
+
+}
+.gallery img{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: transform .2s;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px rgb(170,147,96);
+}
+
+
+
+textarea{
+    width: 370px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input{
+    width: 360px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+label{
+       font-size: large;
+}
+.query{
+  
+     width:60% ;
+     height: 400px;
+     background-color: rgb(117, 56, 15);
+     position: absolute;
+     margin-left: 150px;
+     left: 200px;
+     border: 4px solid black;
+     border-radius: 20px;
+    
+}
+
+.query .end{
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    border-radius: 20px;
+}
+button{
+    position: absolute;
+    left:188px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-family:Shadows Into Light;     
+}
+
+.r1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(117, 56, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.c{
+        width: 300px;
+        height: 250px;
+        margin: 80px;
+}
+.c img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+.c h1{
+    font-size: 60px;
+    font-family: Shadows Into Light; text-align: center;
+    position: relative;
+    top: 30px;
+    
+}
+.C P{
+    position: relative;
+    top: 20px;
+    
+}
+.c h3:hover{
+    color: white;
+    
+}
+.c h3{
+    position: relative;
+    bottom: 30px;
+}
+body{
+    background-color: rgb(153, 106, 51);
+}
+.main h4{
+    font-family: 'Times New Roman', Times, serif;
+}
